@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link
+        href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="dashboard.css">
+
+    <title>Dashboard</title>
+
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="logo">
+            <h2>Página do usuário </h2>
+        </div>
+
+        <div class="user-area">
+
+            <span id="nome-header">
+                Usuário
+            </span>
+
+            <button id="btn-sair">
+                <i class="bx bx-log-out"></i>
+                Sair
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <main class="dashboard">
+
+        <section class="welcome">
+
+            <h1>
+                Olá, <span id="nome-usuario">Usuário</span>! 👋
+            </h1>
+
+            <p>
+                Bem-vindo ao seu painel.
+            </p>
+
+        </section>
+
+
+        <section class="cards">
+
+            <div class="card">
+
+                <div class="card-icon">
+                    <i class="bx bx-user"></i>
+                </div>
+
+                <div>
+
+                    <h3>Nome</h3>
+
+                    <p id="nome-card">
+                        Carregando...
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="card">
+
+                <div class="card-icon">
+                    <i class="bx bx-envelope"></i>
+                </div>
+
+                <div>
+
+                    <h3>E-mail</h3>
+
+                    <p id="email-card">
+                        Carregando...
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="card">
+
+                <div class="card-icon">
+                    <i class="bx bx-check-circle"></i>
+                </div>
+
+                <div>
+
+                    <h3>Status</h3>
+
+                    <p class="status">
+                        Conta ativa
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="info">
+
+            <h2>
+                Informações da conta
+            </h2>
+
+            <p>
+                Seu cadastro foi realizado com sucesso e
+                sua conta está ativa.
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <script src="dashboard.js"></script>
+
+</body>
+
+</html>

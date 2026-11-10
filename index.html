@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link
+        href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Página de Login</title>
+</head>
+
+<body>
+
+    <main class="container">
+
+        <form id="login-form">
+
+            <h1>Login</h1>
+
+            <!-- E-mail -->
+            <div class="input-box">
+
+                <input
+                    id="email"
+                    name="email"
+                    placeholder="Usuário"
+                    type="email"
+                    autocomplete="email"
+                    required
+                >
+
+                <i class="bx bx-user"></i>
+
+            </div>
+
+            <!-- Senha -->
+            <div class="input-box">
+
+                <input
+                    placeholder="Senha"
+                    type="password"
+                    id="senha"
+                    name="senha"
+                    autocomplete="current-password"
+                    required
+                >
+
+                <i class="bx bx-hide" id="toggle-senha"></i>
+
+            </div>
+
+            <div class="remerber-forgot-senha">
+
+                <label>
+                    <input
+                        type="checkbox"
+                        class="checkbox"
+                    >
+                    Lembrar senha
+                </label>
+
+                <a href="#">Esqueci a senha</a>
+
+            </div>
+
+            <button
+                type="submit"
+                class="login"
+            >
+                Entrar
+            </button>
+
+            <div class="link-register">
+
+                <p>
+                    Não tem uma conta?
+                    <a href="pag02.html" target="_self">
+                        Cadastre-se
+                    </a>
+                </p>
+
+            </div>
+
+        </form>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
